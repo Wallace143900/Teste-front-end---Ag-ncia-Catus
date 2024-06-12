@@ -1,0 +1,96 @@
+.header_li {
+    font-family: Inter, "sans-serif";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: var(--lis);
+}
+
+.header_input {
+    font-family: Poppins, "sans-serif";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--input-placeholder);
+}
+
+.title1 {
+    font-family: Inter, "sans-serif";
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 33.89px;
+    color: var(--color-logo);
+}
+
+.title2 {
+    font-family: Inter, "sans-serif";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33.89px;
+    color: black;
+}
+
+.product_description {
+    font-family: Inter, "sans-serif";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: var(--product-description);
+}
+
+.product_value {
+    font-family: Inter, "sans-serif";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22.64px;
+    color: var(--product-value);
+}
+
+.product_value_riscado {
+    font-family: Inter, "sans-serif";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22.64px;
+    color: var(--product-value);
+}
+
+.product_value_span {
+    font-family: Inter, "sans-serif";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.05px;
+    color: var(--product-value);
+}
+
+.button_add_car {
+    width: 218.4px;
+    height: 50px;
+    font-family: Inter, "sans-serif";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.36px;
+}
+
+.footer_title_span{
+    font-family: Inter, "sans-serif";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: white;
+}
+
+.footer_contact {
+    font-family: Inter, "sans-serif";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21.5px;
+    color: white;
+}
+
+.footer_contact_span {
+    font-family: Inter, "sans-serif";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21.5px;
+    color: white;
+}

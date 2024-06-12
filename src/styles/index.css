@@ -1,0 +1,263 @@
+header {
+    background: var(--header);
+    width: 100%;
+    height: 94px;
+}
+
+.divHeader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 96%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 90px;
+    height: 90px;
+}
+
+.li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+li {
+    cursor: pointer;
+}
+
+.input input {
+    border: none;
+    border-bottom: 1px solid black;
+    background: var(--header);
+    width: 242px;
+}
+
+.input button img {
+    width: 30px;
+    height: 30px;
+}
+
+.input button {
+    border: none;
+    cursor: pointer;
+}
+
+.imgs {
+    display: flex;
+    justify-content: space-between;
+    width: 84%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.imgs .imgs-esquerda, .imgs .imgs-direita, .imgs .imgs-centro{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 378.83px;
+    height: 560px;
+}
+
+.imgs .imgs-centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgs .imgs-esquerda img,
+.imgs .imgs-direita img {
+    width: 100%;
+    height: 560px;
+    border-radius: 10px;
+}
+
+.imgs .imgs-centro img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.cards h2 {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    z-index: 1;
+}
+
+.nav-button.prev {
+    left: -50px;
+}
+
+.nav-button.next {
+    right: -50px;
+}
+
+.productCard {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    margin-right: 20px;
+    gap: 7px;
+}
+
+.productCard:last-child {
+    margin-right: 0; 
+}
+
+.productCard .img-poster {
+    /* width: 272px; */
+    width: 100%;
+    height: auto;
+    max-height: 280px;
+    background: var(--header);
+}
+
+.productCard .product_description {
+    /* width: 260px; */
+    width: 100%;
+    text-align: center;
+}
+
+.button_add_car {
+    border: none;
+    border-radius: 4px;
+    background: var(--button-blue);
+    cursor: pointer;
+}
+
+footer {
+    background: var(--product-description);
+    height: 350px;
+}
+
+.information{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.split-line {
+    display: flex;
+    width: 100%;
+    height: 1px; /* Altura da linha */
+}
+
+.green {
+    flex: 0.5; /* A metade verde */
+    background-color: #32BCAD;
+    height: 2px;
+}
+
+.white {
+    flex: 1; /* A metade branca */
+    background-color: white;
+}
+
+.split-line-big{
+    display: flex;
+    width: 93%;
+    height: 2px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.brancos{
+    flex: 1;
+    background-color: #CFCFCF;
+}
+
+.verde{
+    height: 3px;
+    flex: 0.5;
+    background-color: #32BCAD;
+}
+
+.branco{
+    flex: 1;
+    background-color: #CFCFCF;
+}
+
+.information_me {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 20px;
+}
+
+.information_me h4{
+    margin-top: 20px;
+}
+
+.footer_contact_span{
+    margin-top: 20px;
+}
+
+.credibilidade h4{
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.credibilidade .imgs_credibilidade .google_security{
+    width: 146.03px;
+    height: 37px;
+}
+
+.credibilidade .imgs_credibilidade .loja_protegida{
+    width: 130px;
+    height: 38px;
+    margin-top: 20px;
+}
+
+.formas_pagamentos {
+    gap: 20px;
+}
+
+.formas_pagamentos h4{
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.imgs_bandeiras_cartoes img{
+    width: 44px;
+    height: 32px;
+    border-radius: 2px;
+    background: white;
+    margin-top: 20px;
+}
